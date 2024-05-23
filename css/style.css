@@ -38,5 +38,14 @@ section {
 .empty-blue {
     border: 1px solid white;
     min-height: 50px;
-    background-color: rgba(0,108,250,255) ;
+    background-color: rgba(0,108,250,255);
+}
+
+.big-box {
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    color: white;
 }
